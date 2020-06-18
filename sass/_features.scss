@@ -8,6 +8,14 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); //auto-fit so it could place as many cells on the screen as it possible with minmax values
     grid-gap: 6rem;
     align-items: start;
+
+    @media only screen and (max-width: $bp-medium) {
+        margin: 10rem 0;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        margin: 7rem 0;
+    }
 }
 
 .feature {
