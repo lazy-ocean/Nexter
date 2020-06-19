@@ -22,6 +22,12 @@
     height: 2px;
     width: 4.5rem;
     margin-top: 4rem;
+    transition: all 1s;
+
+    &:hover {
+        &::before {transform: translateY(-1.6rem);}
+        &::after {transform: translateY(1.4rem);}
+    }
 
     &::before,
     &::after {
